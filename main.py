@@ -170,7 +170,7 @@ class MaksimRun:
                     self.create_poop(self.poops)
 
                 # С некоторым шансом вызываю горох
-                if random.randrange(0, 100) < 0:
+                if random.randrange(0, 100) < 0.01:
                     self.create_peas(self.peas)
 
                 # Отрисовываю говно и горох
