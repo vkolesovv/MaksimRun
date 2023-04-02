@@ -19,6 +19,7 @@ class MaksimRun:
 
         # Всякие параметры
 
+        self.peas_start = None
         self.isPlayerJump = False
         self.score = 0
         self.size = size
@@ -156,6 +157,20 @@ class MaksimRun:
                         self.isPlayerJump = False
                         jump_count = 13
 
+                # Если наелся гороха
+                if self.player.isAtePeas:
+                    if random.randint(0, 100) < 2:
+                        pygame.time.set_timer(utils.ADD_SCORE_EVENT, 100)
+                    self.speed = self.raw_speed * 5
+                    if (pygame.time.get_ticks() - self.peas_start) / 1000 > 25:
+                        self.player.isAtePeas = False
+                else:
+                    if not self.player.inPoop:
+                        self.speed = self.raw_speed
+
+                    if random.randint(0, 100) < 2:
+                        pygame.time.set_timer(utils.ADD_SCORE_EVENT, 500)
+
                 # Хрень всякую отрисовываю
                 self.screen.fill(utils.SKY)
                 pygame.draw.rect(self.screen, utils.GRAY, (0, self.height - 200, 1000, 200))
@@ -170,8 +185,9 @@ class MaksimRun:
                     self.create_poop(self.poops)
 
                 # С некоторым шансом вызываю горох
-                if random.randrange(0, 100) < 0.01:
-                    self.create_peas(self.peas)
+                if random.randrange(0, 100) < 0.05:
+                    if random.randrange(0, 100) < 10:
+                        self.create_peas(self.peas)
 
                 # Отрисовываю говно и горох
                 self.poops.draw(self.screen)
@@ -184,7 +200,8 @@ class MaksimRun:
                 for i in self.peas:
                     i.rect.x -= self.speed
 
-                self.checkIfCollide()
+                self.checkIfCollideWithPoop()
+                self.checkIfCollideWithPeas()
 
                 # Обновление
 
@@ -207,44 +224,64 @@ class MaksimRun:
 
     def create_poop(self, group):
 
+        log(message="Появилось говно")
         # Прохожусь по всему говну
         for i in self.poops:
             # Если говно ещё почти ничего не прошло, не надо не перемещать, не создавать новый экземпляр
             if i.rect.x in range(850, 1500):
+                log(message="Не получилось заспавнить")
                 return i
 
             # Если ушло влево за границы
             elif i.rect.x < 0:
                 # Перемещаю на примерную исходную точку
                 i.rect.x = random.randint(1010, 1500)
+                log(message="Переместил")
                 return i
 
         # Эх, придётся спавнить новое
+        log(message="Заспавнил")
         poop = utils.Poop("assets/images/poop.png", self.height, group, self.speed)
 
         return poop
 
     def create_peas(self, group):
+        log(message="Появился горох")
         for i in self.peas:
             if i.rect.x in range(850, 1500):
+                log(message="Не получилось заспавнить")
                 return i
             elif i.rect.x < 0:
+                log(message="Переместил")
                 i.rect.x = random.randint(1010, 1500)
                 return i
 
+        log(message="Заспавнил")
         peas = utils.Peas("assets/images/peas.png", self.height, group)
         return peas
 
-    def checkIfCollide(self):
-        for poop in self.poops:
-            if self.player.rect.collidepoint(poop.rect.center):
+    def checkIfCollideWithPoop(self):
+        if not self.player.protected and not self.player.isAtePeas:
+            for poop in self.poops:
+                if self.player.rect.collidepoint(poop.rect.center):
 
-                if not self.player.inPoop:
-                    self.step_in_poop.play()
-                    self.player.inPoop = True
-                return
+                    if not self.player.inPoop:
+                        self.step_in_poop.play()
+                        self.player.inPoop = True
+                    return
 
         self.player.inPoop = False
+
+    def checkIfCollideWithPeas(self):
+        if not self.player.isAtePeas:
+            for peas in self.peas:
+                if self.player.rect.collidepoint(peas.rect.center):
+                    if not self.player.isAtePeas:
+                        self.player.isAtePeas = True
+                        self.peas_start = pygame.time.get_ticks()
+                        peas.kill()
+
+                    return
 
 
 if __name__ == "__main__":

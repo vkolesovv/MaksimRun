@@ -4,6 +4,9 @@ import pygame.sprite
 class Player(pygame.sprite.Sprite):
     def __init__(self, x, files, height):
         pygame.sprite.Sprite.__init__(self)
+
+        self.protected = False
+        self.isAtePeas = False
         self.files = files
         self.index = 0
         self.health = 100
