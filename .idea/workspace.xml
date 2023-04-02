@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="307eb9ef-544f-4b85-85de-562404505667" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MaksimRun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/health_bar/b99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man/man1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man/man12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man/man2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man/man22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/man/man32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/peas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/poop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/step_in_poop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_draw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/objects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/objects/health_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/objects/peas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/objects/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/objects/poop.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2NsyanoPn6KezDxY1dgHIeiBU56" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rkole/PycharmProjects/MaksimRun",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\rkole\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="307eb9ef-544f-4b85-85de-562404505667" name="Changes" comment="" />
+      <created>1680467150024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680467150024</updated>
+    </task>
+    <servers />
+  </component>
+</project>
