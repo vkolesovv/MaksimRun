@@ -38,6 +38,7 @@ class MaksimRun:
         pygame.init()
 
         self.step_in_poop = pygame.mixer.Sound("assets/sounds/step_in_poop.mp3")
+        self.ate_peas = pygame.mixer.Sound("assets/sounds/ate_peas.mp3")
 
         self.screen = pygame.display.set_mode(self.size)
 
@@ -278,6 +279,7 @@ class MaksimRun:
                 if self.player.rect.collidepoint(peas.rect.center):
                     if not self.player.isAtePeas:
                         self.player.isAtePeas = True
+                        self.ate_peas.play()
                         self.peas_start = pygame.time.get_ticks()
                         peas.kill()
 
