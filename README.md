@@ -21,7 +21,7 @@
 ```
 python main.py
 ```
-или
+а для Linux
 ```
 python3 main.py
 ```
