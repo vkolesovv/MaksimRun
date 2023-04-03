@@ -21,4 +21,7 @@
 ```
 python main.py
 ```
-   
+или
+```
+python3 main.py
+```
