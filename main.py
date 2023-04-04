@@ -1,4 +1,6 @@
 import random
+import sys
+
 import pygame
 import utils
 
@@ -43,7 +45,11 @@ class MaksimRun:
         self.screen = pygame.display.set_mode(self.size)
 
         pygame.display.set_caption("Максим ран")
-        pygame.display.set_icon(pygame.image.load("assets/images/icon.bmp"))
+
+        if sys.platform == "win32":
+            pygame.display.set_icon(pygame.image.load("assets/images/icon.png"))
+        else:
+            log("W", f"Player plays on {sys.platform}")
 
         self.font_name = font
 
